@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings(action='ignore')
 
-heart_data= pd.read_csv('defectiveheartdata.csv')
+heart_data= pd.read_csv('heart.csv')
 heart_data
 
 heart_data.shape
